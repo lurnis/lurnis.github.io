@@ -1,8 +1,8 @@
 <?php
 // GitHub foydalanuvchi va repo ma'lumotlari
-$user = 'abduvositin';
-$repo = 'lurnis';
-$path = ''; // agar audios/ papka ichida bo'lsa: 'audios'
+$user = 'lurnis';
+$repo = 'lurnis.github.io';
+$path = 'files/audios'; // agar audios/ papka ichida bo'lsa: 'audios'
 
 // GitHub API URL
 $url = "https://api.github.com/repos/$user/$repo/contents/$path";
